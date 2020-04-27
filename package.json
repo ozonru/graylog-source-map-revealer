@@ -1,6 +1,6 @@
 {
   "name": "graylog-source-map-revealer",
-  "version": "3.2.5",
+  "version": "3.2.4",
   "description": "Graylog plugin for revealing source map as a value action",
   "repository": {
     "type": "git",

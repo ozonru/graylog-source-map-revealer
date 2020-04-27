@@ -6,12 +6,12 @@ import {isEnabled, RevealedSource} from './components/RevealedSource.jsx';
 import packageJson from '../../package.json';
 
 PluginStore.register(new PluginManifest(packageJson, {
-	// systemConfigurations: [
-	// 	{
-	// 		component: SourceMapPluginConfiguration,
-	// 		configType: 'ru.ozon.sourcemap.config.SourceMapPluginConfiguration',
-	// 	},
-	// ],
+	systemConfigurations: [
+		{
+			component: SourceMapPluginConfiguration,
+			configType: 'ru.ozon.plugins.sourcemap.config.SourceMapPluginConfiguration',
+		},
+	],
 	valueActions: [
 		{
 			component: RevealedSource,
