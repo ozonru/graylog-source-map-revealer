@@ -46,9 +46,9 @@ export class RevealedSource extends React.Component {
 		fetch('http://localhost:3000/map', {
 			method: 'POST',
 			body: this.props.value,
-			signal: controller.signal
+			signal: this.abortController.signal
 		})
-		.then(res => res.json())
+		.then(res => res.text())
 		.then(revealed => this.setState({
 			loading: false,
 			revealed
