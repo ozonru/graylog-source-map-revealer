@@ -1,0 +1,25 @@
+{
+  "name": "graylog-source-map-revealer",
+  "version": "3.2.5",
+  "description": "Graylog plugin for revealing source map as a value action",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozonru/graylog-source-map-revealer.git"
+  },
+  "keywords": [
+    "Graylog"
+  ],
+  "author": "OZON team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozonru/graylog-source-map-revealer/issues"
+  },
+  "homepage": "https://github.com/ozonru/graylog-source-map-revealer#readme",
+  "scripts": {
+	"build": "webpack --bail"
+  },
+  "dependencies": {},
+  "devDependencies": {
+	"graylog-web-plugin": "file:../graylog2-server/graylog2-web-interface/packages/graylog-web-plugin"
+  }
+}
