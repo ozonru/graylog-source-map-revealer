@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>ru.ozon.plugins</groupId>
-	<artifactId>sourcemap</artifactId>
+	<artifactId>graylog-plugin-sourcemap</artifactId>
 	<version>3.2.4</version>
 	<packaging>jar</packaging>
 
